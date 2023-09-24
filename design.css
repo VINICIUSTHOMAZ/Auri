@@ -84,3 +84,21 @@ footer{
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .logo {
+    width: 50%;
+  }
+}
