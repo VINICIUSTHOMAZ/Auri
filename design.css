@@ -16,8 +16,29 @@ body {
 
 /*main*/
 
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* or any other value */
+ }
+ 
+ .text {
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  }
 
-
+  .instagram{
+    
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80px;
+  }
+  
 /*Fim pagina em construção*/ 
 
 .logo {
@@ -28,12 +49,13 @@ body {
 
 /*footer*/
 footer{
-  padding: 0px;
+  padding: 0px 0px;
   margin: 0 auto;
+ 
 }
 
 .background_footer{
-  position: fixed;
+  position: flex;
   bottom: 0;
   padding-top: 300px;
   width: 100%;
@@ -49,3 +71,16 @@ footer{
 
 }
 
+/*reponsive img*/
+
+@media only screen and (max-width: 480px) {
+  .photo {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .photo {
+    width: 100%;
+  }
+}
